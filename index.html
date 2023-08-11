@@ -8,7 +8,7 @@
 </head>
 <body>
      <!-- Horizontal flexbox with things centered -->
-     <nav>
+     <nav class="horizontal-items">
         <div>Home</div>
         <div>About</div>
         <div>Contact</div>
@@ -16,11 +16,13 @@
     </nav>
     <!-- VERTICAL flexbox with things centered -->
     <section class="sidebar">
-        <div>games</div>
-        <div>Stories</div>
-        <div>Shows</div>
+        <div class="left-container">
+            <div>games</div>
+            <div>Stories</div>
+            <div>Shows</div>
+        </div>
         <!-- Horizontal Flexbox Inside the VERTIcal flexbox -->
-        <div>
+        <div class="donate-container">
             <button>Donate $1</button>
             <button>Donate $3</button>
             <button>Donate $5</button>
@@ -28,7 +30,7 @@
     </section>
 
     <!-- horizontal flexbox with things centered. -->
-    <footer>
+    <footer class="horizontal-items">
         <div>Copyright</div>
         <div>Contact</div>
         <div>Portfolio</div>

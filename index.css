@@ -15,12 +15,19 @@ body {
 .sidebar {
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: 300px;
 }
 
-.sidebar > *:not(:last-child) {
-    margin: 0 auto; /* it works...  can't use justify-content here... unless you make the divs their own flexbox? */
+.left-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
+
+/* .sidebar > *:not(:last-child) {
+    margin: 0 auto; /* it works...  can't use justify-content here... unless you make the divs their own flexbox? */
+
 
 .donate-container {
     display: flex;
