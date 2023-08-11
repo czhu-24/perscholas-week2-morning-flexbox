@@ -16,6 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 300px;
+    background-color: lightgray;
 }
 
 .left-container {
@@ -23,6 +24,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    height: 250px;
 }
 
 /* .sidebar > *:not(:last-child) {
@@ -33,4 +35,5 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    height: 50px;
 }
