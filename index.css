@@ -4,6 +4,10 @@ body {
     min-height: 100vh;
 }
 
+body > * {
+    margin: 8px;
+}
+
 .horizontal-items {
     display: flex;
     flex-direction: row;
@@ -27,13 +31,14 @@ body {
     height: 250px;
 }
 
-/* .sidebar > *:not(:last-child) {
-    margin: 0 auto; /* it works...  can't use justify-content here... unless you make the divs their own flexbox? */
-
-
 .donate-container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     height: 50px;
+    margin-bottom: 16px;
+}
+
+.donate-container > button {
+    border-radius: 32px;
 }
